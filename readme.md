@@ -91,8 +91,11 @@
     <ul>
       <li><input type="checkbox" id="pistas-2-1-item" /> <label for="pistas-2-1-item">Caso o bloco da pista seja uma RETA, o jogador deve jogar um dado de 6 lados e somar o atributo VELOCIDADE, quem vencer ganha um ponto</label></li>
       <li><input type="checkbox" id="pistas-2-2-item" /> <label for="pistas-2-2-item">Caso o bloco da pista seja uma CURVA, o jogador deve jogar um dado de 6 lados e somar o atributo MANOBRABILIDADE, quem vencer ganha um ponto</label></li>
-      <li><input type="checkbox" id="pistas-2-3-item" /> <label for="pistas-2-3-item">Caso o bloco da pista seja um CONFRONTO, o jogador deve jogar um dado de 6 lados e somar o atributo PODER, quem perder, perde um ponto</label></li>
-      <li><input type="checkbox" id="pistas-2-3-item" /> <label for="pistas-2-3-item">Nenhum jogador pode ter pontuação negativa (valores abaixo de 0)</label></li>
+            <li><input type="checkbox" id="pistas-2-3-item" /> <label for="pistas-2-3-item">Caso o bloco da pista seja um CONFRONTO, o jogador deve jogar um dado de 6 lados e somar o atributo PODER. O vencedor do confronto usará um item sorteado aleatoriamente:<br>
+                - Se usar <b>casco 🐢</b>, o perdedor perde 1 ponto.<br>
+                - Se usar <b>bomba 💣</b>, o perdedor perde 2 pontos.<br>
+                - Quem vencer o confronto recebe um <b>turbo</b> (+1 ponto).</label></li>
+            <li><input type="checkbox" id="pistas-2-4-item" /> <label for="pistas-2-4-item">Nenhum jogador pode ter pontuação negativa (valores abaixo de 0) em nenhum bloco (RETA, CURVA ou CONFRONTO)</label></li>
     </ul>
   </li>
 </ul>
